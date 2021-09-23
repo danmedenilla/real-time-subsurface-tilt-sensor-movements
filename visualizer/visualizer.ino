@@ -8,7 +8,7 @@ CAN_FRAME can_buffer[100];
 int expected_frame = 2;
 char temp_t[1000];
 
-int sensor_version = 11; 
+int sensor_version = 41; 
 //v4 = 41, v3 = 11
 
 void setup() {
