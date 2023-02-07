@@ -3,7 +3,7 @@
 #define LED1 48
 #define RELAYPIN 44
 #define BAUDRATE 9600
-int delay1 = 800;
+int delay1 = 800;             //adjust sampling delay here, medyo unstable na kapag mabilis
 CAN_FRAME can_buffer[100];
 int expected_frame = 2;
 char temp_t[1000];
@@ -13,7 +13,6 @@ int sensor_version = 41;
 
 void setup() {
   
-  // put your setup code here, to run once:
   init_can();
   Serial.begin(BAUDRATE);
   pinMode (LED1, OUTPUT);
