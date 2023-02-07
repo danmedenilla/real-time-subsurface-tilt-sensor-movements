@@ -9,6 +9,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
 
+# specify COM port to be used
 arduino = serial.Serial(port='COM3', baudrate=9600)
 
 xy = 0
