@@ -9,7 +9,7 @@ int expected_frame = 2;
 char temp_t[1000];
 
 int sensor_version = 41; 
-//v4 = 41, v3 = 11
+//v5 = 51/52?, v4 = 41, v3 = 11
 
 void setup() {
   
